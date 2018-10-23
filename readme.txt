@@ -47,6 +47,10 @@ Here's a rough roadmap of where we're heading, and will be ammended as time perm
 Install this plugin like a normal WordPress plugin. Once activated, you'll see a new panel in the Settings section for editing the options for calendar display.
 
 == Changelog ==
+= 2.0 =
+* Updated to FullCalendar 3.9.0 library
+* Include, if exists, wp-fullcalendar-inline-js.php from theme folder instead of plugins inline.js to allow more customization 
+
 = 1.2 =
 * updated to FullCalendar 2.6.1 library
 * added wpfc_calendar_displayed action when a calendar has been displayed
